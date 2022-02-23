@@ -1,0 +1,63 @@
+body{
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.world{
+  height: 100vh;
+  width: 100%;
+}
+.checking{
+  font-size: 400px;
+  color: #ef59ff;
+}
+.ph1{
+  opacity: 0;
+
+}
+.ph2{
+  opacity: 1;
+  font-size: 50px;
+  animation: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 5s;
+}
+.img1{
+  width: 100%;
+  height: 90vh;
+  position: static;
+  overflow: hidden;
+}
+.img2{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  overflow: hidden;
+}
+
+.image2{
+  position: absolute;
+  overflow: hidden;
+  top: 35%;
+  left: 45%;
+}
+.image1{
+  width: 100%;
+  height: 90vh;
+}
+.image2after{
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  right: -180px;
+  height: 45%;
+}
+.image1after{
+  width: 150%;
+  height: 100vh;
+}
